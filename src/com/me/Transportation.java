@@ -1,6 +1,6 @@
 package com.me;
 
-public class Transportation {
+public class Transportation {                   //super class
 
     private String type;
     private int wheels;
