@@ -15,6 +15,11 @@ public class Bike extends Transportation {
         this.handbreaks = handbreaks;
     }
 
+    public int getSeats() {
+        return seats;
+    }
 
-
+    public int getHandbreaks() {
+        return handbreaks;
+    }
 }

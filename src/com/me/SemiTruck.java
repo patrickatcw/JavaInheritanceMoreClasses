@@ -14,4 +14,12 @@ public class SemiTruck extends Transportation {
         this.steps = steps;
         this.sleeper = sleeper;
     }
+
+    public int getSteps() {
+        return steps;
+    }
+
+    public int getSleeper() {
+        return sleeper;
+    }
 }

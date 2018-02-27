@@ -15,4 +15,12 @@ public class Car extends Transportation{
         this.doors = doors;
         this.trunk = trunk;
     }
+
+    public int getDoors() {
+        return doors;
+    }
+
+    public int getTrunk() {
+        return trunk;
+    }
 }
