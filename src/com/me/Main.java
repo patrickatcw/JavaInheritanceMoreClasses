@@ -13,6 +13,13 @@ public class Main {
                 car.getWheels() + " wheels, " + car.getDoors() + " doors, and " + car.getTrunk()
         + " trunk.");
 
+        SemiTruck semiTruck = new SemiTruck("Big Rig",18, 3, 1);
+        System.out.println("Another type of vehicle is a " + semiTruck.getType() +
+        " which has " + semiTruck.getWheels() + " wheels. It has " + semiTruck.getSteps()
+        + " steps to get into the driving cab and " + semiTruck.getSleeper() + " sleeper cab.");
+
+
+
     }
 
 }
