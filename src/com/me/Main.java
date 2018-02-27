@@ -18,8 +18,10 @@ public class Main {
         " which has " + semiTruck.getWheels() + " wheels. It has " + semiTruck.getSteps()
         + " steps to get into the driving cab and " + semiTruck.getSleeper() + " sleeper cab.");
 
-
-
+        Bike bike = new Bike("Bike", 2, 1, 1);
+        System.out.println("A " + bike.getType() + " is a " + bike.getWheels() + " wheel type of " +
+                " transportation, with " + bike.getSeats() + " seat and " + bike.getHandbreaks()
+        + " handbrake.");
     }
 
 }
