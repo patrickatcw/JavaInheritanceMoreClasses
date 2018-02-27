@@ -22,6 +22,14 @@ public class Main {
         System.out.println("A " + bike.getType() + " is a " + bike.getWheels() + " wheel type of " +
                 " transportation, with " + bike.getSeats() + " seat and " + bike.getHandbreaks()
         + " handbrake.");
+
+        Schwinn schwinn = new Schwinn("Schwinn", 2, 1, 1,
+                2, 2);
+        System.out.println("A " + schwinn.getType() + " is a brand of bike, that has "
+        + bike.getWheels() + " wheels, " + schwinn.getSeats() +
+        " seat, " + schwinn.getHandbreaks() + " handbrake, " + schwinn.getReflectors()
+        + " reflectors, and " + schwinn.getFenders() + " fenders.");
+
     }
 
 }
